@@ -1,6 +1,6 @@
 
 const owner = 'ejazz-ahmad';
-const repo_name = 'truth';
+const repo_name = 'ejazz-ahmad.github.io';
 const backslash = '/';
 
 const baseUrl = 'https://api.github.com/repos/' + owner + backslash + repo_name;
