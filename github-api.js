@@ -4,7 +4,7 @@ const repo_name = 'ejazz-ahmad.github.io';
 const backslash = '/';
 
 const baseUrl = 'https://api.github.com/repos/' + owner + backslash + repo_name;
-const token = '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';
+const token = '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';
 
 async function createButtons() {
     const url = baseUrl + '/actions/workflows';
@@ -207,7 +207,7 @@ function triggerWorkFlow() {
             method: 'POST',
             headers: {
                 'Accept': 'application/vnd.github.v3+json',
-                'Authorization': 'token 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'
+                'Authorization': 'token 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'
             },
             body: JSON.stringify(payload)
         })
